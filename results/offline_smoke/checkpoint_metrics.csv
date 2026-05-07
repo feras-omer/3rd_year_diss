@@ -1,0 +1,3 @@
+model,checkpoint_path,outputs_are_normalised,denoise_steps,sample_count,steering_mae,steering_rmse,speed_mae,speed_rmse,combined_rmse,mean_pred_steering,mean_pred_speed,mean_true_steering,mean_true_speed
+old,/home/feras/sim_ws/old stuff/diffusion_policy.pt,False,6,1024.0,0.02048584073781967,0.030565155670046806,0.05572870373725891,0.14871323108673096,0.1518217921257019,-0.0004273015074431896,4.944411754608154,0.007161746732890606,5.0
+new,/home/feras/sim_ws/diffusion_f110/models/diffusion_policy.pt,True,8,1024.0,0.030082758516073227,0.04201880842447281,0.019307805225253105,0.024198638275265694,0.04848870262503624,0.020776698365807533,5.001203536987305,0.007161746732890606,5.0
